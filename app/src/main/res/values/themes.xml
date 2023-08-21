@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TrainerTap" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <!--start-->
+    <style name="trainer_tap">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+
+    </style>
+    <style name="invisible_v">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <!--step1-->
+    <style name="step">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+
+    <!--step1-->
+    <style name="select">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#0696F4</item>
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="text1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+
+    <!--step2-->
+    <style name="attach1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!--step3-->
+    <style name="step3title">
+        <item name="android:textSize">40.41sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+    <style name="text3">
+        <item name="android:textSize">10.1sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+    </style>
+    <style name="count_">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+    <style name="mus">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+    <style name="Theme.TrainerTap" parent="Base.Theme.TrainerTap">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#0696F4</item>
+    </style>
+</resources>

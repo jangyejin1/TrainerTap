@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0696F4"
+    tools:context=".Step3BenchpressActivity">
+
+
+    <TextView
+        android:id="@+id/step3"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:text="@string/step3"
+        android:textAppearance="@style/step"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/workout_wit"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:gravity="center_vertical"
+        android:text="@string/workout_wit"
+        android:textAppearance="@style/text1"
+        app:layout_constraintStart_toStartOf="@+id/step3"
+        app:layout_constraintTop_toBottomOf="@+id/step3"
+        android:layout_marginTop="2dp" />
+
+    <View
+        android:id="@+id/backbutton"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/benchpress"
+        app:layout_constraintBottom_toBottomOf="@id/benchpress"/>
+
+    <View
+        android:id="@+id/nextbutton"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/nextbutton"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/benchpress"
+        app:layout_constraintBottom_toBottomOf="@id/benchpress"/>
+
+    <TextView
+        android:id="@+id/benchpress"
+        android:layout_width="400dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="@string/benchpress_"
+        android:layout_marginTop="21dp"
+        android:textAppearance="@style/step3title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workout_wit"/>
+
+    <TextView
+        android:id="@+id/connection_"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/connection_"
+        android:textAppearance="@style/text3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/benchpress" />
+
+    <Button
+        android:id="@+id/bluetoothButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="6.21dp"
+        android:text="블루투스"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/connection_" />
+
+    <LinearLayout
+        android:id="@+id/rectangle_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rectangle_2"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintDimensionRatio="H,4:3"
+        android:layout_marginStart="20.21dp"
+        android:layout_marginTop="14.14dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bluetoothButton">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/step3deadlift"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/count_"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+
+        android:text="@string/count_"
+        android:textAppearance="@style/count_"
+
+        app:layout_constraintStart_toEndOf="@id/rectangle_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintTop_toBottomOf="@id/bluetoothButton" />
+
+    <TextView
+        android:id="@+id/count_2"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+
+        android:text="11"
+        android:textAppearance="@style/count_"
+        app:layout_constraintStart_toEndOf="@id/rectangle_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintTop_toBottomOf="@id/count_"
+        />
+
+    <TextView
+        android:id="@+id/primary_mus"
+        android:layout_width="120dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="24.13dp"
+
+        android:text="@string/primary_mus"
+        android:textAppearance="@style/mus"
+        app:layout_constraintStart_toEndOf="@id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/count_2"
+        />
+
+    <TextView
+        android:id="@+id/secondary_mus"
+        android:layout_width="120dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="9dp"
+
+
+        android:text="@string/secondary_mus"
+        android:textAppearance="@style/mus"
+        app:layout_constraintStart_toEndOf="@id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/primary_mus" />
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="23.13dp"
+        android:background="@drawable/ellipse_1"
+
+        app:layout_constraintStart_toEndOf="@id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/count_2"
+        />
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/ellipse_2"
+
+        app:layout_constraintStart_toEndOf="@id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/primary_mus"
+        />
+
+    <TextView
+        android:id="@+id/progress_"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:text="@string/progress_"
+        android:textAppearance="@style/count_"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/progress_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_2"
+        app:layout_constraintHorizontal_chainStyle="packed"/>
+
+    <!-- Progress 2 TextView centered to the right of progress_ -->
+    <TextView
+        android:id="@+id/progress_2"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="--"
+        android:textAppearance="@style/count_"
+        app:layout_constraintStart_toEndOf="@+id/progress_"
+        app:layout_constraintEnd_toStartOf="@+id/progress_percent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_2" />
+
+    <!-- Progress Percent TextView centered to the right of progress_2 -->
+    <TextView
+        android:id="@+id/progress_percent"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="%"
+        android:textAppearance="@style/count_"
+        app:layout_constraintStart_toEndOf="@+id/progress_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_2" />
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+
+        android:background="@drawable/rectangle_2"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_"
+        app:layout_constraintHeight_percent="0.28"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

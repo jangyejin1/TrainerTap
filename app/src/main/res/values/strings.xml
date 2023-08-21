@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TrainerTap</string>
+    <!--start-->
+    <string name="trainer_tap">TRAINER\nTAP</string>
+    <string name="invisible_v">Invisible Virtual Trainer\'s Guidance</string>
+    <!--step1-->
+    <string name="step1">STEP1</string>
+    <string name="select_the_">Select the exercise</string>
+    <string name="squat">Squat</string>
+    <string name="bench_press">Bench Press</string>
+    <string name="dead_lift">Dead Lift</string>
+    <!--step2-->
+    <string name="step2">STEP2</string>
+    <string name="attach_the_">Attach The Devices</string>
+    <string name="attach1">1. Attach the Y-Motion Detector to the bar</string>
+    <string name="attach2">2. Place Vibration Devices in these pockets</string>
+    <!--step3-->
+    <string name="step3">STEP3</string>
+    <string name="workout_wit">Workout with Tap</string>
+    <string name="deadlift_">DEADLIFT</string>
+    <string name="squat_">SQUAT</string>
+    <string name="benchpress_">BENCH PRESS</string>
+    <string name="connection_">Connection Status</string>
+    <string name="count_">Count:</string>
+    <string name="primary_mus">Primary muscle</string>
+    <string name="secondary_mus">Secondary muscle</string>
+    <string name="progress_">Progress:</string>
+</resources>
